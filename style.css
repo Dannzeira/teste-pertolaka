@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+	font-size: 15px;
+}
+
+.titulo {
+	font-size: 25px;
+	text-align: center;
+}
+
+.item {
+	position: absolute;
+	padding: 5px;
+	margin: 25px;
+	background-color: rgb(000,000,000,0.5);
+	border-style: solid;
+	border-width: 3px;
+	width: 30%;
+	height: 30%;
+	border-radius: 5px;
+}
+
+.item:hover {
+	transform: scale(1.1);
+	border-color: yellow;
+}
+
+.item:nth-child(1) {
+	left: 25px;
+}
+
+img {
+	width: 120%;
+}
+
+.descricao {
+	margin: 600px;
+	text-align: left;
+	position: absolute;
+}
